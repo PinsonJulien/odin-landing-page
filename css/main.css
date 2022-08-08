@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 /*********/
 /* FONTS */
 /*********/
@@ -25,15 +29,15 @@ main {
   background-color: #F9FAF8;
 }
 
-#header-logo,
+#header-logo a,
 #hero h1,
 footer {
   color: #F9FAF8;
 }
 
+#navbar nav a,
 #hero p {
   color: #E5E7EB;
-  font-size: 18px;
 }
 
 #quote {
@@ -48,11 +52,46 @@ footer {
 #information img {
   border-color: #3882F6;
 }
+
+/******************/
+/* COMMON PADDING */
+/******************/
+
+#navbar {
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
 /**********/
 /* NAVBAR */
 /**********/
+#navbar {
+  display: flex;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
 
-#header-logo {
+#navbar #header-logo,
+#navbar nav {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+#navbar a {
+  text-decoration: none;
+}
+
+#navbar nav {
+  margin-left: auto;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+}
+
+#header-logo a {
   font-size: 24px;
 }
 

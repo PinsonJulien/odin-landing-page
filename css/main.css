@@ -31,6 +31,7 @@ main {
 
 #header-logo a,
 #hero h1,
+#hero .button,
 footer {
   color: #F9FAF8;
 }
@@ -49,6 +50,7 @@ footer {
   background-color: #3882F6;
 }
 
+#hero .button,
 #information img {
   border-color: #3882F6;
 }
@@ -57,7 +59,8 @@ footer {
 /* COMMON PADDING */
 /******************/
 
-#navbar {
+#navbar,
+#hero {
   padding-left: 10em;
   padding-right: 10em;
 }
@@ -101,13 +104,28 @@ footer {
 
 /* HERO */
 
+#hero {
+  padding-top: 7em;
+  padding-bottom: 7em;
+  display: flex;
+  gap: 3em;
+}
+
 #hero h1 {
   font-size: 48px;
   font-weight: 800;
+  margin: 0;
 }
 
 #hero p {
   font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0.7em;
+}
+
+#hero-image {
+  width: 100%;
+  background-color: grey;
 }
 
 /* INFORMATION */
@@ -133,3 +151,12 @@ footer {
 /**************/
 /* COMPONENTS */
 /**************/
+
+.button {
+  padding: 0.7em 2em 0.7em 2em;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: none;
+  font-size: 16px;
+  font-weight: 600;
+}

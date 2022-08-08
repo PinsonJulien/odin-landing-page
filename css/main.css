@@ -227,6 +227,13 @@ footer {
 /* FOOTER */
 /**********/
 
+footer {
+  padding: 2em;
+}
+
+footer p {
+  text-align: center;
+}
 
 /**************/
 /* COMPONENTS */

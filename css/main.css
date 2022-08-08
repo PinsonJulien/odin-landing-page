@@ -32,12 +32,18 @@ main {
 #header-logo a,
 #hero h1,
 #hero .button,
+#call-to-action,
 footer {
   color: #F9FAF8;
 }
 
+#call-to-action .button {
+  border-color: #F9FAF8;
+}
+
 #navbar nav a,
-#hero p {
+#hero p,
+#call-to-action p {
   color: #E5E7EB;
 }
 
@@ -46,7 +52,7 @@ footer {
 }
 
 #hero button,
-#call-to-action {
+#call-to-action > div {
   background-color: #3882F6;
 }
 
@@ -60,7 +66,8 @@ footer {
 /******************/
 
 #navbar,
-#hero {
+#hero,
+#call-to-action {
   padding-left: 10em;
   padding-right: 10em;
 }
@@ -191,6 +198,31 @@ footer {
   font-weight: 800;
 }
 
+/* CALL TO ACTION */
+#call-to-action {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+#call-to-action > div {
+  border-radius: 10px;
+  padding: 3em 5em 3em 5em;
+  display: flex;
+}
+
+#call-to-action > div > div:nth-child(2) {
+  margin-left: auto;
+}
+
+#call-to-action h2,
+#call-to-action p {
+  margin: 0;
+}
+
+#call-to-action .button {
+  background-color: inherit;
+}
+
 /**********/
 /* FOOTER */
 /**********/
@@ -204,7 +236,12 @@ footer {
   padding: 0.7em 2em 0.7em 2em;
   border-radius: 10px;
   border-width: 2px;
-  border-style: none;
+  border-style: solid;
   font-size: 16px;
   font-weight: 600;
+  color: inherit;
+}
+
+.button:hover {
+  cursor:pointer;
 }

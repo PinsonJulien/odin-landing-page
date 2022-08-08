@@ -133,6 +133,7 @@ footer {
 #information {
   display: flex;
   flex-direction: column;
+  padding: 0 12em 4em 12em;
 }
 
 #information h2 {
@@ -143,9 +144,10 @@ footer {
 }
 
 #information #information-images {
-  padding: 0 10em 0 10em;
   display: flex;
+  width: 100%;
   gap: 3.5em;
+  justify-content: center;
 }
 
 #information #information-images figure {
@@ -167,10 +169,26 @@ footer {
 
 /* QUOTE */
 
+#quote {
+  padding: 6em 14em 6em 14em;
+}
+
+#quote figure,
+#quote blockquote {
+  margin: 0;
+}
+
 #quote blockquote {
   font-style: italic;
   font-size: 36px;
   font-weight: 300; /* light */  
+}
+
+#quote figcaption {
+  margin-top: 1em;
+  text-align: right;
+  font-size: 22px;
+  font-weight: 800;
 }
 
 /**********/

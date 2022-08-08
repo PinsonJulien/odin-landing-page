@@ -51,7 +51,7 @@ footer {
 }
 
 #hero .button,
-#information img {
+#information #information-images figure div {
   border-color: #3882F6;
 }
 
@@ -130,9 +130,39 @@ footer {
 
 /* INFORMATION */
 
+#information {
+  display: flex;
+  flex-direction: column;
+}
+
 #information h2 {
   font-size: 36px;
   font-weight: 800;
+  margin: 0 auto 0 auto;
+  padding: 1em 0 1em 0;
+}
+
+#information #information-images {
+  padding: 0 10em 0 10em;
+  display: flex;
+  gap: 3.5em;
+}
+
+#information #information-images figure {
+  text-align: center;
+  margin:0;
+}
+
+#information #information-images figure div {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+#information figcaption {
+  margin-top: 0.7em;
 }
 
 /* QUOTE */

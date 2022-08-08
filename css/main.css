@@ -1,0 +1,96 @@
+/*********/
+/* FONTS */
+/*********/
+
+body {
+  font-family: Roboto;
+}
+
+/*****************/
+/* COMMON COLORS */
+/*****************/
+
+#navbar, 
+#hero, 
+footer {
+  background-color: #1F2937;
+}
+
+#information h2,
+#quote blockquote {
+  color: #1F2937;
+}
+
+main {
+  background-color: #F9FAF8;
+}
+
+#header-logo,
+#hero h1,
+footer {
+  color: #F9FAF8;
+}
+
+#hero p {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+#quote {
+  background-color: #E5E7EB;
+}
+
+#hero button,
+#call-to-action {
+  background-color: #3882F6;
+}
+
+#information img {
+  border-color: #3882F6;
+}
+/**********/
+/* NAVBAR */
+/**********/
+
+#header-logo {
+  font-size: 24px;
+}
+
+/********/
+/* MAIN */
+/********/
+
+/* HERO */
+
+#hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+#hero p {
+  font-size: 18px;
+}
+
+/* INFORMATION */
+
+#information h2 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+/* QUOTE */
+
+#quote blockquote {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 300; /* light */  
+}
+
+/**********/
+/* FOOTER */
+/**********/
+
+
+/**************/
+/* COMPONENTS */
+/**************/

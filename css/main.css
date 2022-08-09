@@ -118,6 +118,7 @@ footer {
   gap: 3em;
 }
 
+
 #hero h1 {
   font-size: 48px;
   font-weight: 800;
@@ -131,7 +132,9 @@ footer {
 }
 
 #hero-image {
-  width: 100%;
+  width: 25%;
+  aspect-ratio: 16/10;
+  margin-left: auto;
   background-color: grey;
 }
 
